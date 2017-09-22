@@ -1,0 +1,279 @@
+/*
+* @Author: G50-70
+* @Date:   2017-07-20 18:18:29
+* @Last Modified by:   G50-70
+* @Last Modified time: 2017-07-22 11:49:56
+*/
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+header{
+	width:100%;
+	height:0.92rem;
+	background: #0078e6;
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+.ceng{
+	width:100%;
+	height:0.92rem;
+}
+.logo{
+	width:2.05rem;
+	height: 0.92rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.logo-box{
+	width: 0.72rem;
+	height: 100%;
+	/* background: blue; */
+	float: left;
+}
+.logo-box img{
+	width: 0.72rem;
+	height: 0.67rem;
+	display: block;
+	margin-top: 0.13rem;
+}
+.logo-right{
+	width: 1.33rem;
+	height: 100%;
+	/* background: greenyellow; */
+	float: left;
+	font-size: 0.33rem;
+	text-align: center;
+	line-height: 0.92rem;
+	color: #fff;
+}
+/* 头部结束*/
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+    background: pink;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* banner结束 */
+/* 首页开始 */
+.first{
+	width: 100%;
+	height: 0.82rem;
+	background: #f5f6fa;
+	font-size: 0.21rem;
+	color: #4B4949;
+	line-height: 0.82rem;
+	padding-left: 0.23rem;
+	box-sizing: border-box;
+}
+.first a{
+	color: #4B4949;
+}
+/* 首页结束 */
+/* 大模块开始 */
+.big-box{
+	width: 100%;
+	height: 15.6rem;
+	background: #F5F6FA;
+}
+main{
+	width: 7.02rem;
+	height: 15.6rem;
+	background: #fff;
+	margin: 0 auto;
+}
+.student-box{
+	width: 7.02rem;
+	height: 15.6rem;
+	/* background:pink; */
+	margin: 0 auto;
+}
+.student-box li{
+	width: 7.02rem;
+	height: 1.85rem;
+	margin-bottom: 0.1rem;
+	/* background: yellow; */
+}
+.people{
+	width: 1.93rem;
+	height: 1.45rem;
+	background: #C8C8C8;
+	margin-top: 0.2rem;
+	margin-left: 0.2rem;
+	float: left;
+	margin-right: 0.3rem;
+}
+
+.money{
+	/* width: 3.12rem; */
+	height: 1.03rem;
+	float: left;
+	/* background: pink; */
+	margin-top: 0.4rem;
+}
+.money .name{
+	font-size: 0.25rem;
+	color: #000;
+}
+.dd{
+	height: 0.16rem;
+	font-size:0.02rem;
+	line-height: 0.03rem;
+	color: #A1A1A1;
+}
+.qian{
+	font-size: 0.25rem;
+	color: #94D43E;
+}
+.gongsi{
+	font-size: 0.22rem;
+	color: #474747;
+}
+/* 大模块结束 */
+.w{
+	width: 100%;
+	height: 0.1rem;
+	background: #F5F6FA;
+}
+/* 图标开始 */
+.tubiao{
+	width: 100%;
+	height: 0.7rem;
+	/* background: green; */
+}
+.tu1{
+	width: 0.58rem;
+	height: 0.31rem;
+	background: pink;
+	margin-top: 0.2rem;
+	margin-left: 0.1rem;
+	float: left;
+}
+.tu1 img{
+	width: 0.58rem;
+	height: 0.31rem;
+	display: block;
+}
+.tu2{
+	width: 0.31rem;
+	height: 0.31rem;
+	border: 0.01rem solid #B9B9B9;
+	border-radius: 50%;
+	margin-top: 0.19rem;
+	margin-left: 0.1rem;
+	margin-right: 0.1rem;
+	float: left;
+}
+.stu{
+	width: 0.25rem;
+	height: 0.25rem;
+	border: 0.01rem solid #000;
+	border-radius: 50%;
+	margin: auto;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.25rem;
+	margin-top: 0.02rem;
+}
+.tu4{
+	width: 0.31rem;
+	height: 0.31rem;
+	border: 0.01rem solid #01B5FF;
+	border-radius: 50%;
+	margin-top: 0.19rem;
+	margin-left: 0.15rem;
+	margin-right: 0.15rem;
+	float: left;
+	background: #01B5FF;
+}
+.stu4{
+	width: 0.25rem;
+	height: 0.25rem;
+	border: 0.01rem solid #fff;
+	border-radius: 50%;
+	margin: auto;
+	font-size: 0.1rem;
+	text-align: center;
+	line-height: 0.25rem;
+	background: #01B5FF;
+	margin-top: 0.02rem;
+}
+.dian{
+	width: 0.3rem;
+	height: 100%;
+	font-size: 0.02rem;
+	text-align: center;
+	line-height: 0.7rem;
+	/* background: pink; */
+	float: left;
+}
+.stu30{
+	width: 0.25rem;
+	height: 0.25rem;
+	border: 0.01rem solid #000;
+	border-radius: 50%;
+	margin: auto;
+	font-size: 0.05rem;
+	text-align: center;
+	line-height: 0.25rem;
+	margin-top: 0.02rem;
+}
+
+.tu10{
+	width: 0.58rem;
+	height: 0.31rem;
+	float: left;
+	background: pink;
+	margin-top: 0.2rem;
+	/* margin-right: 0.39rem; */
+}
+.tu10 img{
+	width: 0.58rem;
+	height: 0.31rem;
+	display: block;
+}
+.tiao{
+	font-size: 0.14rem;
+	color: #000;
+	float: left;
+	margin-top: 0.17rem;
+}
+.ye{
+	font-size: 0.14rem;
+	color: #000;
+	float: left;
+	margin-top: 0.17rem;
+}
+
+/* 图标结束 */
+/* 底部开始 */
+footer{
+	width: 100%;
+	height: 1rem;
+	background: #F5F6FA;
+}
+.banquan{
+	margin-top: 0.2rem;
+	width: 100%;
+	text-align: center;
+	font-size: 0.12rem;
+	color:#666666 ;
+	margin-bottom: 0.2rem;
+}
+.dianhua{
+	font-size:0.11rem;
+	color: #666; 
+	text-align: center;
+
+}
+/* 底部结束 */

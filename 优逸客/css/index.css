@@ -1,0 +1,295 @@
+*{
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style: none;
+}
+/* 头部开始 */
+header{
+	width:100%;
+	height:0.92rem;
+	background: #0078e6;
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99999;
+}
+.ceng{
+	width:100%;
+	height:0.92rem;
+}
+.logo{
+	width:2.05rem;
+	height: 0.92rem;
+	/* background: pink; */
+	margin: 0 auto;
+}
+.logo-box{
+	width: 0.72rem;
+	height: 100%;
+	/* background: blue; */
+	float: left;
+}
+.logo-box img{
+	width: 0.72rem;
+	height: 0.67rem;
+	display: block;
+	margin-top: 0.13rem;
+}
+.logo-right{
+	width: 1.33rem;
+	height: 100%;
+	/* background: greenyellow; */
+	float: left;
+	font-size: 0.33rem;
+	text-align: center;
+	line-height: 0.92rem;
+	color: #fff;
+}
+/* 头部结束*/
+/* banner开始 */
+.banner{
+	width: 100%;
+	height: 2.8rem;
+    background: pink;
+}
+.banner img{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+/* banner结束 */
+/* 模块开始 */
+.mokuai{
+	width: 100%;
+	height: 4.81rem;
+	background: #F5F6FA;
+}
+.main{
+	width: 7.1rem;
+	height: 100%;
+	/* background: yellow; */
+	margin: 0 auto;
+}
+.main li{
+	width: 25%;
+	height: 50%;
+	/* background:#000; */
+	float: left;
+}
+
+.m-top{
+    width: 1.55rem;
+    height: 1.55rem;
+    background: #FFFFFF;
+    margin: 0.29rem auto 0rem;
+    border-radius: 30%; 
+    overflow: hidden;
+}
+.img-box{
+	width: 0.95rem;
+	height: 0.95rem;
+	margin: auto;
+	/* background: greenyellow; */
+	margin-top: 0.3rem;
+}
+.img-box img{
+	width: 0.95rem;
+	height: 0.95rem;
+	display: block;
+}
+.img-box a{
+	width: 0.95rem;
+	height: 0.95rem;
+	display: block;
+}
+.word{
+	width: 100%;
+	height: 0.4rem;
+	font-size: 0.19rem;
+	color:#000;
+	/* background: pink; */
+	text-align: center;
+	line-height:0.4rem; 
+} 
+
+/* 模块结束 */
+/* 服务体系开始 */
+.fuwu{
+	width: 100%;
+	height: 2.83rem;
+	/* background: pink; */
+	border-bottom: 0.01rem solid #E8E8E8;
+	box-sizing: border-box;
+}
+.fuwu-top{
+	width: 100%;
+	height: 0.64rem;
+	background: #fff;
+	font-size: 0.22rem;
+	text-align: center;
+	line-height: 0.64rem;
+    color: #0377BC;
+    border-bottom: 0.01rem solid #e8e8e8;
+    box-sizing: border-box;
+}
+.fuwu-bottom{
+	width: 100%;
+	height: 2.19rem;
+	/* background: greenyellow; */
+}
+.s-bottom{
+	width: 50%;
+	height: 100%;
+	/* background: pink; */
+	float: left;
+	border-right: 0.01rem solid #e8e8e8;
+	box-sizing: border-box;
+}
+.fuwu-bottom .two{
+    border-right: 0;
+}
+.mianfei{
+	float: left;
+    margin-top: 0.38rem;
+    margin-left: 0.16rem;
+	margin-right: 0.3rem;
+}
+.tijian{
+	font-size: 0.23rem;
+	color: #000;
+}
+.jiankang{
+	font-size: 0.17rem;
+	color: #B0B0B0;
+}
+.docter{
+	width: 1.37rem;
+	height: 1.32rem;
+	/* background: blue; */
+	float: left;
+	margin-top: 0.38rem;
+}
+.docter img{
+	width: 1.37rem;
+	height: 1.32rem;
+	display: block;
+}
+/* 服务体系结束 */
+/* 免费试听开始 */
+.listen-box{
+	width: 100%;
+	height: 1.39rem;
+	/* background: pink; */
+	border-bottom: 0.01rem solid #EBECED;
+	box-sizing: border-box;
+}
+.listen-box li{
+	width: 33.3333%;
+	height:100%;
+	/* background: yellow; */
+	border-right: 0.01rem solid #EBECED;
+    float: left;
+    box-sizing: border-box;
+}
+.listen-box .three{
+    border-right: 0;
+}
+.listen-img{
+	width: 0.61rem;
+	height: 0.61rem;
+	/* background: green; */
+	margin-left: 0.2rem;
+	margin-top: 0.39rem;
+	/* margin-right: 0.2rem; */
+	float: left;
+}
+.listen-img img{
+	width: 0.61rem;
+	height: 0.61rem;
+	display: block;
+}
+.shiting{
+	width: 1.55rem;
+	/* height: 0.6rem; */
+	/* background: pink; */
+	float: right;
+	margin-top: 0.39rem;
+}
+.buy{
+	font-size: 0.23rem;
+	color: #000;
+}
+.qianren{
+	font-size: 0.17rem;
+	color: #999999;
+}
+/* 免费试听结束 */
+.white{
+	width: 100%;
+	height: 0.19rem;
+	background: #F5F5F9;
+}
+/* 校区查询开始 */
+.school{
+	width:100%;
+	height: 0.81rem;
+	/* background: pink; */
+}
+.school-box{
+	width: 33.333%;
+	height: 100%;
+	/* background: yellow; */
+	float: left;
+}
+.search{
+	width: 0.31rem;
+	height: 0.31rem;
+	/* background: greenyellow; */
+	margin-top: 0.24rem;
+	margin-left: 0.2rem;
+	margin-right: 0.2rem;
+	float: left;
+}
+.search img{
+	width: 0.31rem;
+	height: 0.31rem;
+	display: block;
+}
+.school-searach{
+	font-size: 0.2rem;
+	color: #000;
+	margin-top: 0.18rem;
+}
+.tel{
+	width: 2.38rem;
+	height: 0.81rem;
+	background: #FF7E00;
+	border-radius:0.08rem;
+}
+.tel-left{
+	width: 0.34rem;
+	height: 0.34rem;
+	/* background: pink; */
+	margin-top: 0.24rem;
+	margin-left: 0.4rem;
+	margin-right: 0.19rem;
+	float: left;
+}
+.tel-left img{
+	width: 0.34rem;
+	height: 0.34rem;
+	display: block;
+}
+.tel-right{
+	font-size: 0.26rem;
+	color: #fff;
+	margin-top: 0.19rem;
+	float: left;
+}
+/* 校区查询结束 */
+.white1{
+	width: 100%;
+	height: 0.39rem;
+	background: #F5F6FA;
+}
