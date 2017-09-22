@@ -1,0 +1,201 @@
+*{
+   margin:0;
+   padding:0;
+   list-style: none;
+   text-decoration: none;
+}
+@font-face {
+  font-family: 'iconfont';  /* project id 398717 */
+  src: url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.eot');
+  src: url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.eot?#iefix') format('embedded-opentype'),
+  url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.woff') format('woff'),
+  url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.ttf') format('truetype'),
+  url('http://at.alicdn.com/t/font_398717_w1fr59cmz9uul3di.svg#iconfont') format('svg');
+}
+.iconfont{
+	font-family: iconfont;
+}
+.top{
+	width:1000px;
+	height:100px;
+	background:#7EADFF;
+	margin:0 auto;
+	display: flex;
+	align-items: center;
+}
+.top1 li{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-right:30px;
+	border:1px solid #dfdfdf;
+	box-sizing: border-box;
+}
+
+.top1 li:first-child{
+	margin-left:30px;
+}
+.top1 .iconfont{
+	font-size:30px;
+	text-align: center;
+	line-height: 40px;	
+}
+.top1 li:hover{
+	cursor: default;
+	font-size:35px;
+	transition:0.5s;
+}
+.top1 li:last-child{
+	margin-right:0;
+}
+.bottom{
+	width:1000px;
+	height:530px;
+	margin:0 auto;
+	margin-top: 3px;
+	border:1px solid #0085d0;
+	box-sizing: border-box;
+	position:relative;
+}
+.era{
+	width:20px;
+	height:20px;
+	background: #FF8612;
+	border-radius:6px;
+	position:absolute;
+	top:0;
+	left:0;
+	display: none;
+}
+.mask{
+	width:1000px;
+	height:530px;
+	/*background: pink;*/
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.left{
+	float:left;
+	width:90px;
+	height:90px;
+	margin-left:50px;
+}
+.left li{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-right:10px;
+	border:1px solid #dfdfdf;
+	box-sizing: border-box;
+	margin-bottom:0;
+}
+.left li:nth-child(2){
+	margin-right:0;
+	margin-bottom:10px;
+}
+.left li:nth-child(4){
+	margin-right:0;
+	margin-bottom:0;
+}
+
+.left .iconfont{
+	font-size:30px;
+	text-align: center;
+	line-height: 40px;	
+}
+
+.right{
+	float:left;
+	width:90px;
+	height:90px;
+	margin-left:50px;
+}
+.right li{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-right:10px;
+	border:1px solid #dfdfdf;
+	box-sizing: border-box;
+	margin-bottom:0;
+}
+.right li:nth-child(2){
+	margin-right:0;
+	margin-bottom:10px;
+}
+.right li:nth-child(4){
+	margin-right:0;
+	margin-bottom:0;
+}
+.right .iconfont{
+	font-size:30px;
+	text-align: center;
+	line-height: 40px;	
+}
+.right input{
+	width:30px;
+	height:25px;
+	margin: auto;
+	margin-top:7px; 
+}
+.right active{
+	border:1px solid #dfdfdf;
+	box-sizing:border-box;
+}
+.left li:hover{
+	cursor: default;
+	font-size:35px;
+	transition:0.5s;
+}
+.right li:hover{
+	cursor: default;
+	font-size:35px;
+	transition:0.5s;
+}
+
+.last{
+	float:left;
+	width:90px;
+	height:90px;
+	margin-left:50px;
+}
+.last li{
+	width:40px;
+	height:40px;
+	float:left;
+	margin-right:10px;
+	border:1px solid #dfdfdf;
+	box-sizing: border-box;
+	margin-bottom:0;
+}
+.last li:nth-child(2){
+	margin-right:0;
+	margin-bottom:10px;
+}
+.last li:nth-child(4){
+	margin-right:0;
+	margin-bottom:0;
+	
+}
+
+.last .iconfont{
+	font-size:30px;
+	text-align: center;
+	line-height: 40px;	
+}
+.last li:hover{
+	cursor: default;
+	font-size:19px;
+	transition:0.5s;
+}
+.last .reverse{
+	font-size:18px;
+}
+.cut{
+	position:absolute;
+	left:0;
+	top:0;
+	display:none;
+}

@@ -1,0 +1,66 @@
+/*
+* @Author: G50-70
+* @Date:   2017-08-23 09:05:09
+* @Last Modified by:   G50-70
+* @Last Modified time: 2017-08-24 00:27:49
+*/
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	height: 660px;
+	background:url('../img/0adf15464aa86eb8e418d5c887bbc0f6.jpg') no-repeat center/cover;
+}
+.dstyle{
+	width: 100px;
+	height: 100px;
+	/* background: yellow; */
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 30px;
+	color: #0085d0;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 10px;
+	background-size: 100px 100px;
+	font-size: 0;
+}
+.gk{
+	width: 100px;
+	height: 100px;
+	background: #ff6700;
+	position:fixed;
+    top: 70px;
+    left: 0;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
+.score{
+	width: 100px;
+	height: 100px;
+	background: #ff6700;
+	position:fixed;
+    top: 200px;
+    left: 0;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+
+
+}
+.life{
+	width: 100px;
+	height: 100px;
+	background: #ff6700;
+	position:fixed;
+    top: 330px;
+    left: 0;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+}
